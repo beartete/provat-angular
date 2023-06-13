@@ -9,7 +9,8 @@ import { AnuncioService } from '../anuncio.service';
 })
 export class AnuncioComponent implements OnInit{
 
-  anuncio: Anuncio[] = [];
+  anuncios: Anuncio[] = [];
+  anuncio: Anuncio = {} as Anuncio;
 
 
   constructor (private AnuncioService: AnuncioService){}
@@ -21,7 +22,7 @@ export class AnuncioComponent implements OnInit{
   loadAnuncio() {
       this.AnuncioService.getAnuncio().subscribe(
         {
-          next : data => this.anuncio = data,
+          next : data => this.anuncios = data,
         }
       );
   }

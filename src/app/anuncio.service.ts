@@ -11,7 +11,7 @@ export class AnuncioService {
   constructor(private http: HttpClient) { }
 
   getAnuncio(): Observable<Anuncio[]> {
-      let url = "http://localhost:3000/produto";
+      let url = "http://localhost:3004/anuncios";
       return this.http.get<Anuncio[]>(url);
   }
 }

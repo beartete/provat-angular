@@ -1,0 +1,39 @@
+{
+  "Anuncio": [
+    {
+      "id": 1,
+      "img": "https://sme.goiania.go.gov.br/conexaoescola/wp-content/uploads/2020/10/mcdonalds-e1602870731296.png",
+      "name": "Hamburgueria",
+      "marca": "McDonalds",
+      "codigo": "00001"
+    },
+    {
+      "id": 2,
+      "img" : "https://gkpb.com.br/wp-content/uploads/2019/01/coca-cola-destaque-nome-dela-jenifer-2.jpg",
+      "name": "Refrigerante",
+      "marca": "Coca-Cola",
+      "codigo": "00002"
+    },
+    {
+      "id": 3,
+      "img": "https://publicinove.com.br/wp-content/uploads/2018/12/adds_of_the_world_maiz_dm.jpg",
+      "name": "Milho Enlatado",
+      "marca": "Dell Monte",
+      "codigo": "00003"
+    },
+    {
+      "id": 4,
+      "img": "https://blog.bling.com.br/wp-content/uploads/2019/12/mercado-livre.jpg",
+      "name": "Site de Compras",
+      "marca": "Mercado Livre",
+      "codigo": "00004"
+    },
+    {
+      "id": 5,
+      "img": "https://www.infomoney.com.br/wp-content/uploads/2019/08/netflix.jpg?resize=900%2C515&quality=50&strip=all",
+      "name": "Site para Assistir",
+      "marca": "Netflix",
+      "codigo": "00005"
+    }
+  ]
+}

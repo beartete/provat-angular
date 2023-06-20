@@ -1,16 +1,24 @@
-import { TestBed } from '@angular/core/testing';
+import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { AnuncioService } from './anuncio.service';
+import { AnuncioComponent } from './anuncio/anuncio.component';
 
-describe('AnuncioService', () => {
-  let service: AnuncioService;
+describe('AnuncioComponent', () => {
+  let component: AnuncioComponent;
+  let fixture: ComponentFixture<AnuncioComponent>;
 
-  beforeEach(() => {
-    TestBed.configureTestingModule({});
-    service = TestBed.inject(AnuncioService);
+  beforeEach(async () => {
+    await TestBed.configureTestingModule({
+      declarations: [ AnuncioComponent ]
+    })
+    .compileComponents();
+
+    fixture = TestBed.createComponent(AnuncioComponent);
+    component = fixture.componentInstance;
+    fixture.detectChanges();
   });
 
-  it('should be created', () => {
-    expect(service).toBeTruthy();
+  it('should create', () => {
+    expect(component).toBeTruthy();
   });
 });
